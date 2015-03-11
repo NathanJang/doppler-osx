@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FF19D7E1AB07A1000BF1260 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF19D7D1AB07A1000BF1260 /* AppDelegate.m */; };
+		5FF19D801AB07A1000BF1260 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF19D7F1AB07A1000BF1260 /* main.m */; };
+		5FF19D831AB07A1000BF1260 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF19D821AB07A1000BF1260 /* ViewController.m */; };
+		5FF19D851AB07A1000BF1260 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FF19D841AB07A1000BF1260 /* Images.xcassets */; };
+		5FF19D881AB07A1000BF1260 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF19D861AB07A1000BF1260 /* Main.storyboard */; };
+		5FF19D941AB07A1000BF1260 /* doppler_osxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF19D931AB07A1000BF1260 /* doppler_osxTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FF19D8E1AB07A1000BF1260 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FF19D6F1AB07A1000BF1260 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FF19D761AB07A1000BF1260;
+			remoteInfo = "doppler-osx";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FF19D771AB07A1000BF1260 /* doppler-osx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "doppler-osx.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF19D7B1AB07A1000BF1260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FF19D7C1AB07A1000BF1260 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5FF19D7D1AB07A1000BF1260 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5FF19D7F1AB07A1000BF1260 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FF19D811AB07A1000BF1260 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5FF19D821AB07A1000BF1260 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5FF19D841AB07A1000BF1260 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5FF19D871AB07A1000BF1260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FF19D8D1AB07A1000BF1260 /* doppler-osxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "doppler-osxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF19D921AB07A1000BF1260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FF19D931AB07A1000BF1260 /* doppler_osxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = doppler_osxTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FF19D741AB07A1000BF1260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF19D8A1AB07A1000BF1260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FF19D6E1AB07A1000BF1260 = {
+			isa = PBXGroup;
+			children = (
+				5FF19D791AB07A1000BF1260 /* doppler-osx */,
+				5FF19D901AB07A1000BF1260 /* doppler-osxTests */,
+				5FF19D781AB07A1000BF1260 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FF19D781AB07A1000BF1260 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FF19D771AB07A1000BF1260 /* doppler-osx.app */,
+				5FF19D8D1AB07A1000BF1260 /* doppler-osxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FF19D791AB07A1000BF1260 /* doppler-osx */ = {
+			isa = PBXGroup;
+			children = (
+				5FF19D7C1AB07A1000BF1260 /* AppDelegate.h */,
+				5FF19D7D1AB07A1000BF1260 /* AppDelegate.m */,
+				5FF19D811AB07A1000BF1260 /* ViewController.h */,
+				5FF19D821AB07A1000BF1260 /* ViewController.m */,
+				5FF19D841AB07A1000BF1260 /* Images.xcassets */,
+				5FF19D861AB07A1000BF1260 /* Main.storyboard */,
+				5FF19D7A1AB07A1000BF1260 /* Supporting Files */,
+			);
+			path = "doppler-osx";
+			sourceTree = "<group>";
+		};
+		5FF19D7A1AB07A1000BF1260 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FF19D7B1AB07A1000BF1260 /* Info.plist */,
+				5FF19D7F1AB07A1000BF1260 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FF19D901AB07A1000BF1260 /* doppler-osxTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FF19D931AB07A1000BF1260 /* doppler_osxTests.m */,
+				5FF19D911AB07A1000BF1260 /* Supporting Files */,
+			);
+			path = "doppler-osxTests";
+			sourceTree = "<group>";
+		};
+		5FF19D911AB07A1000BF1260 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FF19D921AB07A1000BF1260 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FF19D761AB07A1000BF1260 /* doppler-osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF19D971AB07A1000BF1260 /* Build configuration list for PBXNativeTarget "doppler-osx" */;
+			buildPhases = (
+				5FF19D731AB07A1000BF1260 /* Sources */,
+				5FF19D741AB07A1000BF1260 /* Frameworks */,
+				5FF19D751AB07A1000BF1260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "doppler-osx";
+			productName = "doppler-osx";
+			productReference = 5FF19D771AB07A1000BF1260 /* doppler-osx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FF19D8C1AB07A1000BF1260 /* doppler-osxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF19D9A1AB07A1000BF1260 /* Build configuration list for PBXNativeTarget "doppler-osxTests" */;
+			buildPhases = (
+				5FF19D891AB07A1000BF1260 /* Sources */,
+				5FF19D8A1AB07A1000BF1260 /* Frameworks */,
+				5FF19D8B1AB07A1000BF1260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FF19D8F1AB07A1000BF1260 /* PBXTargetDependency */,
+			);
+			name = "doppler-osxTests";
+			productName = "doppler-osxTests";
+			productReference = 5FF19D8D1AB07A1000BF1260 /* doppler-osxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FF19D6F1AB07A1000BF1260 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Schemetrical;
+				TargetAttributes = {
+					5FF19D761AB07A1000BF1260 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					5FF19D8C1AB07A1000BF1260 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 5FF19D761AB07A1000BF1260;
+					};
+				};
+			};
+			buildConfigurationList = 5FF19D721AB07A1000BF1260 /* Build configuration list for PBXProject "doppler-osx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FF19D6E1AB07A1000BF1260;
+			productRefGroup = 5FF19D781AB07A1000BF1260 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FF19D761AB07A1000BF1260 /* doppler-osx */,
+				5FF19D8C1AB07A1000BF1260 /* doppler-osxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FF19D751AB07A1000BF1260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF19D851AB07A1000BF1260 /* Images.xcassets in Resources */,
+				5FF19D881AB07A1000BF1260 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF19D8B1AB07A1000BF1260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FF19D731AB07A1000BF1260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF19D831AB07A1000BF1260 /* ViewController.m in Sources */,
+				5FF19D801AB07A1000BF1260 /* main.m in Sources */,
+				5FF19D7E1AB07A1000BF1260 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF19D891AB07A1000BF1260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF19D941AB07A1000BF1260 /* doppler_osxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FF19D8F1AB07A1000BF1260 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FF19D761AB07A1000BF1260 /* doppler-osx */;
+			targetProxy = 5FF19D8E1AB07A1000BF1260 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FF19D861AB07A1000BF1260 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FF19D871AB07A1000BF1260 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FF19D951AB07A1000BF1260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5FF19D961AB07A1000BF1260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5FF19D981AB07A1000BF1260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "doppler-osx/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5FF19D991AB07A1000BF1260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "doppler-osx/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5FF19D9B1AB07A1000BF1260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "doppler-osxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doppler-osx.app/Contents/MacOS/doppler-osx";
+			};
+			name = Debug;
+		};
+		5FF19D9C1AB07A1000BF1260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "doppler-osxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doppler-osx.app/Contents/MacOS/doppler-osx";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FF19D721AB07A1000BF1260 /* Build configuration list for PBXProject "doppler-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF19D951AB07A1000BF1260 /* Debug */,
+				5FF19D961AB07A1000BF1260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FF19D971AB07A1000BF1260 /* Build configuration list for PBXNativeTarget "doppler-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF19D981AB07A1000BF1260 /* Debug */,
+				5FF19D991AB07A1000BF1260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FF19D9A1AB07A1000BF1260 /* Build configuration list for PBXNativeTarget "doppler-osxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF19D9B1AB07A1000BF1260 /* Debug */,
+				5FF19D9C1AB07A1000BF1260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FF19D6F1AB07A1000BF1260 /* Project object */;
+}
